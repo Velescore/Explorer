@@ -5,7 +5,7 @@ var velesDevConsole = {
     animationDelay: 500,
     cmdDeferred: null,
     cmdResult: false,
-    welcomeMessage: "Veles Core Websocket client version v0.17 \"Aged Amnesia\"\n"
+    welcomeMessage: "Veles Core Websocket client version v0.18.1.2 \"Blockchain Barracuda\"\n"
         + " ____   ____     .__                _________  \n_\\___\\_/___/____ |  |   ____   _____\\_   ___ \\  ___________   ____  \n\\___________/__ \\|  | _/ __ \\ /  ___/    \\  \\/ /  _ \\_  __ \\_/ __ \\ \n   \\  Y  /\\  ___/|  |_\\  ___/ \\___ \\\\     \\___(  <_> )  | \\/\\  ___/ \n    \\___/  \\___  >____/\\___  >____  >\\______  /\\____/|__|    \\___  >\n               \\/          \\/     \\/        \\/                   \\/ \n"
         + "This feature is highly EXPERIMENTAL, please use at your own risk.\n"
         + "Type .help for more information about available commands.\n\n",
