@@ -795,6 +795,11 @@ hr {
 }
 
 
+
+.navbar-brand {
+    display: inline-flex;
+    margin-left: 0!important;
+}
 .navbar-brand:hover {
 	color: #fff;
     border-bottom: 2px solid #F19B7E;
@@ -810,7 +815,23 @@ a.navbar-brand.active {
 	font-size: 15px;
 	color: #fff;
 }
-
+}
+div#brand-text {
+    font-size: 21px;
+    margin: 4px 6px;
+}
+div#brand-text .brand-subtitle {
+    font-weight: lighter;
+}
+#brand-text {
+    margin-left: 6px;
+    margin-top: 4px;
+    display: inline-block;
+}
+#icon {
+    height: 32px;
+    width: 32px;
+}
 li.nav-item {
 	border-bottom: 2px solid transparent;
 	padding: 21px 0 6px 0;

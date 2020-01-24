@@ -120,8 +120,9 @@ html
                     span.icon-bar
                     span.icon-bar
                   a.navbar-brand(href='/')
-                    img#navlogo(src='/veles.ico')
-                    p#text-brand Veles
+                    img#icon(src='/veles.ico')
+                    div#brand-text Veles
+                      span.brand-subtitle Explorer
                 .collapse.navbar-collapse(id='navbar-collapse')
                   ul.nav.navbar-nav
                     li.nav-item
@@ -315,7 +316,7 @@ html
                     i.fa.fa-chart-line
                     |  VLS Price:
                     .tooltip-price
-                      span(data-entity-id='market.price', data-attribute='price_btc', data-format='coin_amount', data-unit='BTC') 0.00000000
+                      span(data-entity-id='market.price', data-attribute='price_btc', data-format='coin_amount', data-unit='&nbsp;BTC') 0.00000000
                       br
                       span(data-entity-id='market.price', data-attribute='price_usd', data-format='number', data-fixed-decimals='2', data-unit-before='$') 0.00
                   li.tooltip-row-tall
